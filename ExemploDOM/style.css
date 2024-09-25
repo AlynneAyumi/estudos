@@ -1,0 +1,34 @@
+body {
+    margin: 20px;
+    background-color: rgb(224, 233, 242);
+}
+
+button {
+    margin: 5px 10px;
+    border-color: rgb(75, 29, 118);
+    border: 2;
+    border-style: solid;
+    border-radius: 6pt;
+    padding: 5px 10px;
+    color: aliceblue;
+    background-color: rgb(159, 101, 213);
+}
+
+form input {
+    margin: 5px 10px 20px;
+    padding: 5px 10px;
+    border-color: rgb(218, 218, 218);
+    border: 2;
+    border-style: solid;
+    border-radius: 4pt;
+    background-color: rgb(245, 245, 245);
+}
+
+
+form {
+    text-align: center;
+}
+
+div#exibirPessoa {
+    display: none;
+}

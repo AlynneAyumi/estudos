@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DOM</title>
+</head>
+<body>
+    <!-- Formulário Principal -->
+    <form id="formulario">
+
+        <label for="nome">Nome:</label> </br>
+        <input type="text" name="nome" id="nome" required> </br>
+
+        <label for="sobrenome">Sobrenome:</label> </br>
+        <input type="text" name="sobrenome" id="sobrenome" required> </br>
+
+        <label for="CPF">CPF:</label> </br>
+        <input type="text" name="CPF" id="CPF" required> </br>
+
+        <label for="senha">Senha:</label> </br>
+        <input type="password" name="senha" id="senha" required> </br>
+
+        <button type="submit" id="btnEnviar">Enviar</button>
+        
+    </form>
+
+    <!-- Exibir os dados do formulário-->
+    <div id="exibirPessoa">
+        <h2>Dados Cadastrados:</h2>
+        <p id="exbNomeCompleto"></p>
+        <p id="exbCPF"></p>
+        <p id="exbSenha"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
